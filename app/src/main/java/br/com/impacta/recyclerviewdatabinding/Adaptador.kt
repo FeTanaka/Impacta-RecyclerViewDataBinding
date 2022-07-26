@@ -19,11 +19,7 @@ class Adaptador(val conjuntoDados: MutableList<Conversa>) :
     }
 
     override fun onBindViewHolder(holder: ConversaViewHolder, position: Int) {
-        val conversa = conjuntoDados[position]
-        holder.binding.contatoNome.text = conversa.nome
-        holder.binding.contatoConversa.text = conversa.conversa
-        holder.binding.contatoHorario.text = conversa.horario
-        holder.binding.contatoImagem.setImageResource(conversa.imagem)
+        holder.binding.conversa = conjuntoDados[position]
     }
 
     override fun getItemCount(): Int {

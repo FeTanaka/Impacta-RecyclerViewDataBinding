@@ -32,8 +32,6 @@ class HomeFragment : Fragment() {
 
         binding.recyclerView.adapter = Adaptador(colecaoConversas)
         binding.recyclerView.layoutManager = LinearLayoutManager(context)
-
-
     }
 
 }
