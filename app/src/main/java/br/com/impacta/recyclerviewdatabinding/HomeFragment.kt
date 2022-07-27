@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
+import br.com.impacta.recyclerviewdatabinding.adapters.Adaptador
 import br.com.impacta.recyclerviewdatabinding.data.Conversa
 import br.com.impacta.recyclerviewdatabinding.databinding.FragmentHomeBinding
 

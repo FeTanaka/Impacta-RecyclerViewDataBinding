@@ -1,4 +1,4 @@
-package br.com.impacta.recyclerviewdatabinding
+package br.com.impacta.recyclerviewdatabinding.adapters
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
